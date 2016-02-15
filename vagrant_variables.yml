@@ -1,0 +1,20 @@
+---
+
+# DEFINE THE NUMBER OF VMS TO RUN
+vms: 2
+
+# SUBNET TO USE FOR THE VMS
+subnet: 192.168.2
+
+# MEMORY
+memory: 2048
+
+# VAGRANT BOX
+# Fedora: https://download.fedoraproject.org/pub/fedora/linux/releases/22/Cloud/x86_64/Images/Fedora-Cloud-Base-Vagrant-22-20150521.x86_64.vagrant-virtualbox.box
+# Ubuntu: ubuntu/trusty64
+# CentOS: chef/centos-7.0
+# For more boxes have a look at:
+#   - https://atlas.hashicorp.com/boxes/search?utf8=✓&sort=&provider=virtualbox&q=
+#   - https://download.gluster.org/pub/gluster/purpleidea/vagrant/
+vagrant_box: box-cutter/centos72
+box_version: 2.0.11
