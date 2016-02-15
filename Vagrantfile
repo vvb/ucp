@@ -44,7 +44,7 @@ ansible_provision = proc do |ansible|
 
   # In a production deployment, these should be secret
   ansible.extra_vars = {
-    docker_version: "1.10.0",
+    docker_version: "1.10.1",
     etcd_peers_group: 'netplugin-node',
     env: proxy_env,
     control_interface: "enp0s8",
